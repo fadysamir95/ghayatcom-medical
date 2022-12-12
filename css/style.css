@@ -366,11 +366,11 @@ a:focus {
 }
 
 .navbar-brand {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .navbar-brand img {
-  width: 60px;
+  width: 200px;
 }
 
 .header-top-bar {
@@ -1303,7 +1303,7 @@ a:focus {
   padding-bottom: 10px;
 }
 .footer .logo img {
-  width: 60px;
+  width: 160px;
 }
 .footer .copyright a {
   font-weight: 600;
@@ -1424,4 +1424,47 @@ a:focus {
   transition: all 0.3s;
   cursor: pointer;
   opacity: 1;
+}
+.announcement {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: #009edf;
+  color: white;
+  font-family: Arial, sans;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+.announcement a { 
+  color: #ccc; 
+}
+.announcement a:hover {
+  color: red;
+}
+
+.announcement-text {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: #2ab3eb;
+  color: white;
+  font-family: Arial, sans;
+  margin: 0;
+  padding: 0.2rem;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+
+.announcement-text a { 
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.announcement-text a:hover {
+  color: #ccc;
 }

@@ -8,7 +8,7 @@
 				height: 'toggle'
 			}, 300);
 		});
-  }
+    }
 
 	// scroll to top button
 	$(window).on('scroll', function () {
